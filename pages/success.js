@@ -6,11 +6,10 @@ import { useStateContext } from '../context/StateContext';
 import { runSchoolPride } from '../lib/utils';
 
 const Success = () => {
+    const { setCartItems, setTotalPrice, setTotalQuantity } = useStateContext();
     
-
     useEffect(() => {
-        const { setCartItems, setTotalPrice, setTotalQuantity } = useStateContext();
-
+        
         localStorage.clear();
         setCartItems([]);
         setTotalQuantity(0);
