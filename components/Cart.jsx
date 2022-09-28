@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import {
   AiOutlineMinus,
@@ -54,11 +53,13 @@ const Cart = () => {
           {cartItems.length >= 1 &&
             cartItems.map((item) => (
               <div className="product" key={item._id}>
-                <Image
+                <picture>
+                <img
                   src={urlFor(item?.image[0])}
                   className="cart-product-image"
                   alt=""
                 />
+                </picture>
                 <div className="item-desc">
                   <div className="top flex">
                     <h5>{item.name}</h5>
