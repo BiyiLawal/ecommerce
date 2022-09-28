@@ -248,6 +248,8 @@ span.text-red {
 }
 .banner-desc .right{
   line-height: 1.4;
+  position: absolute;
+  right: 5%;
 }
 .banner-desc .right h3{
   font-weight: 800;

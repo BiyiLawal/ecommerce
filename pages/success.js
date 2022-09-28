@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-// import { useRouter } from 'next/router';
 import { BsBagCheckFill } from 'react-icons/bs';
 
 import { useStateContext } from '../context/StateContext';
 import { runSchoolPride } from '../lib/utils';
 
 const Success = () => {
-    const { setCartItems, setTotalPrice, setTotalQuantity } = useStateContext();
-    // const [order, setOrder] = useState(null);
+    
 
     useEffect(() => {
+        const { setCartItems, setTotalPrice, setTotalQuantity } = useStateContext();
+
         localStorage.clear();
         setCartItems([]);
         setTotalQuantity(0);
