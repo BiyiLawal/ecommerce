@@ -778,6 +778,12 @@ span.text-red {
     height: 50%;
     z-index: -1;
   }
+  .banner-desc{
+    display: block;
+  }
+  .banner-desc .right{
+    margin-top: 50px;
+  }
   .banner-desc .left h3{
     font-weight: 900;
     font-size: 35px;
@@ -787,10 +793,10 @@ span.text-red {
     margin:12px;
   }
   .banner-desc .right h3{
-    font-size: 45px;
+    font-size: 25px;
   }
   .banner-desc .right p{
-    font-size: 18px;
+    font-size: 12px;
   }
   .banner-desc .right .company-desc{
     font-size: 14px;
