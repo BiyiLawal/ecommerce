@@ -605,7 +605,7 @@ span.text-red {
 }
 
 
-@media screen and (max-width:770px){
+@media screen and (max-width:800px){
   .hero-banner-container{
     height: 560px;
     width: 100%;
@@ -624,8 +624,8 @@ span.text-red {
     z-index: -2;
   }
   .footer-banner-image{
-    /* width: 77%;
-    left: 30%; */
+    width: 65%;
+    left: 30%;
     top: 6%;
     height: 56%;
     z-index: -1;
@@ -761,7 +761,7 @@ span.text-red {
   }
   .hero-banner-image{
     width: 60%;
-    height: 42%;
+    height: 40%;
     top: 10%;
     left: 30%;
     z-index: -1;
